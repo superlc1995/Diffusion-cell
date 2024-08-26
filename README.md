@@ -1,3 +1,3 @@
 # Diffusion-cell
 
-This is reposr
+The layout-to-image training and generating diffusion model is in folder ```point_to_img``` 
