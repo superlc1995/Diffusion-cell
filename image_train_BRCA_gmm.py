@@ -34,9 +34,9 @@ def main():
         # data_dir= '/data07/shared/chenli/gen_diff/part_B/larged_images',
         # ann_dir= '/data07/shared/chenli/gen_diff/part_B/den_map',
         # copula_dir= '/data07/shared/chenli/gen_diff/part_B/copula_map',
-        ann_dir = 'point_den',
-        copula_dir= 'gmm_den/',
-        ddd_dir= 'point_single',
+        ann_dir = args.ann_dir,
+        copula_dir= args.copula_dir,
+        ddd_dir= args.point_single,
         batch_size=args.batch_size,
 
     )
@@ -77,6 +77,10 @@ def create_argparser():
         resume_checkpoint="",
         use_fp16=False,
         fp16_scale_growth=1e-3,
+        ann_dir = 'point_den/',
+        copula_dir = 'gmm_den/',
+        point_single = 'point_single/'
+
     )
     defaults.update(model_and_diffusion_defaults())
     parser = argparse.ArgumentParser()
