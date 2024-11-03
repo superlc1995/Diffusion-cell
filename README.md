@@ -60,5 +60,6 @@ The inference of layout-to-image model is in ```point_to_img/gen_BRCA_gmm.py```.
 ## 3. To be updated ##
 
 1. Pretrained models
+2. Spatial FID
 <!-- 2.  -->
 <!-- The  -->
