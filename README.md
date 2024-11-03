@@ -2,6 +2,22 @@
 
 The code for MICCAI2024 paper: [Spatial diffusion for cell layout generation](https://arxiv.org/pdf/2409.03106)
 
+Abstract. Generative models, such as GANs and diffusion models, have
+been used to augment training sets and boost performances in different
+tasks. We focus on generative models for cell detection instead, i.e., locating and classifying cells in given pathology images. One important
+information that has been largely overlooked is the spatial patterns of
+the cells. In this paper, we propose a spatial-pattern-guided generative
+model for cell layout generation. Specifically, a novel diffusion model
+guided by spatial features and generates realistic cell layouts has been
+proposed. We explore different density models as spatial features for
+the diffusion model. In downstream tasks, we show that the generated
+cell layouts can be used to guide the generation of high-quality pathology images. Augmenting with these images can significantly boost the
+performance of SOTA cell detection methods.
+
+<p align="center"> 
+<img src="spatial_github.png" alt="drawing" width="100%"  />
+</p>
+
 ## 1. Training and infering for cell layout generation ##
 
 Training layout generation framework with GMM density maps on BRCA dataset:
