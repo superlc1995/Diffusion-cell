@@ -73,9 +73,16 @@ To start the training process of layout-to-image, just ```bash begin_BRCA.sh``` 
 The inference of layout-to-image model is in ```point_to_img/gen_BRCA_gmm.py```.
 
 
-## 3. To be updated ##
+## 3.Pretrained models##
+
+Pretrained model for BRCA layout generation: 
+https://drive.google.com/file/d/16Gk2a_gO5W294HOofwlOWN8J0BGHrv_W/view?usp=drive_link
+
+## 4. To be updated ##
 
 1. Pretrained models
 2. Spatial FID
 <!-- 2.  -->
 <!-- The  -->
+
+
