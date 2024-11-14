@@ -76,7 +76,7 @@ The inference of layout-to-image model is in ```point_to_img/gen_BRCA_gmm.py```.
 ## 3.Pretrained models##
 
 Pretrained model for BRCA layout generation: 
-https://drive.google.com/file/d/16Gk2a_gO5W294HOofwlOWN8J0BGHrv_W/view?usp=drive_link
+https://drive.google.com/file/d/16Gk2a_gO5W294HOofwlOWN8J0BGHrv_W/view?usp=sharing
 
 ## 4. To be updated ##
 
